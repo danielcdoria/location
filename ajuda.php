@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Local Dados</title>
-    <link rel="stylesheet" href="css/estilo_ajuda.css">
+    <link rel="stylesheet" href="estilo_ajuda.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
 </head>
 <body>
 
     <div class="btn">
-        <a href="cadastro.html">
+        <a href="cadastro.php">
             <i class="bi bi-arrow-left-circle"></i>
         </a>
     </div>

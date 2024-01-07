@@ -28,7 +28,7 @@
           </div>
           <button type="submit">Entrar</button>
         </form>
-        <a href="ajuda.html" id="ajuda1">Precisa de ajuda?</a>
+        <a href="ajuda.php" id="ajuda1">Precisa de ajuda?</a>
     
         <form id="signup" method="POST">
           <input type="email" placeholder="Email" required />
