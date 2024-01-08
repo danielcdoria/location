@@ -10,7 +10,7 @@
 <body>
 
     <div class="btn">
-        <a href="cadastro.php">
+        <a href="../cadastro.php">
             <i class="bi bi-arrow-left-circle"></i>
         </a>
     </div>

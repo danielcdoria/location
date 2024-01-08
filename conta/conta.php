@@ -18,7 +18,7 @@
 
         <ul>
             <li class="item-menu ativo">
-                <a href="index.php">
+                <a href="../paginaHome/index.php">
                     <span class="icon"><i class="bi bi-house"></i></span>
                     <span class="txt-link">Home</span>
                 </a>
@@ -48,7 +48,7 @@
                 </a>
             </li>
             <li class="item-menu">
-                <a href="cadastro.php">
+                <a href="../cadastro.php">
                     <span class="icon"><i class="bi bi-box-arrow-left"></i></span>
                     <span class="txt-link">Sair</span>
                 </a>
@@ -117,7 +117,7 @@
 
         
     </main>
-    <script src="reviel.js"></script>
-    <script src="menu.js"></script>
+    <script src="../js/reviel.js"></script>
+    <script src="../js/menu.js"></script>
 </body>
 </html>

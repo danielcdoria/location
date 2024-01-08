@@ -155,15 +155,15 @@
                 <ul>
                     <li>
                         <h3>RTX 3060</h3>
-                        <span class="barras"><span class="bb1"></span></span>
+                        <span class="barras"><span class="b1"></span></span>
                     </li>
                     <li>
                         <h3>RX 6600</h3>
-                        <span class="barras"><span class="bb2"></span></span>
+                        <span class="barras"><span class="b2"></span></span>
                     </li>
                     <li>
                         <h3>ARC 750</h3>
-                        <span class="barras"><span class="bb3"></span></span>
+                        <span class="barras"><span class="b3"></span></span>
                     </li>
                 </ul>
             </div>
@@ -197,7 +197,7 @@
 
     <script src="../js/carregamento.js"></script>
     <script src="../js/menu.js"></script>
-    <script src="../js/reviel.js"></script>
+    <script src="../js/reviel2.js"></script>
     <script src="chart.js"></script>
 
       
