@@ -1,3 +1,8 @@
+<?php
+require '../verifica.php';
+
+if(isset($_SESSION['idUser']) && !empty($_SESSION['idUser'])): ?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -17,7 +22,7 @@
         </div>
 
         <ul>
-            <li class="item-menu ativo">
+            <li class="item-menu ">
                 <a href="../paginaHome/index.php">
                     <span class="icon"><i class="bi bi-house"></i></span>
                     <span class="txt-link">Home</span>
@@ -35,7 +40,7 @@
                     <span class="txt-link">Procurar</span>
                 </a>
             </li>
-            <li class="item-menu">
+            <li class="item-menu ativo">
                 <a href="">
                     <span class="icon"><i class="bi bi-person-circle"></i></span>
                     <span class="txt-link">Conta</span>
@@ -63,7 +68,7 @@
             <div id="ft">
                 <i class="bi bi-person-circle"></i>
             </div>
-            <h1>@username</h1>
+            <strong class="nome"><?php echo $nomeUser;?></strong>
         </nav>
 
         <div class="linha"></div>
@@ -121,3 +126,5 @@
     <script src="../js/menu.js"></script>
 </body>
 </html>
+
+<?php else: header("Location: ../cadastro.php"); endif; ?>

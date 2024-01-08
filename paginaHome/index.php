@@ -1,3 +1,7 @@
+<?php 
+require '../conexao2.php';
+
+if(isset($_SESSION['idUser']) && !empty($_SESSION['idUser'])): ?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -55,7 +59,7 @@
                 </a>
             </li>
             <li class="item-menu">
-                <a href="../cadastro.php">
+                <a href="logout.php">
                     <span class="icon"><i class="bi bi-box-arrow-left"></i></span>
                     <span class="txt-link">Sair</span>
                 </a>
@@ -230,3 +234,5 @@
 
 </body>
 </html>
+
+<?php else: header: "../cadastro.php"; endif; ?>
