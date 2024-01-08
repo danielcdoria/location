@@ -337,9 +337,9 @@ div.body{
 
 }
 
-.b1{
+.bb1{
     width: 65%; /*SE MUDAR AQUI MUDE NO KEYFRAME CORRESPONDENTE TAMBÉM*/
-    animation: b1 3s;
+    animation: bb1 0s;
 }
 
 .b2{
@@ -352,7 +352,7 @@ div.body{
     animation: b3 3s;
 }
 
-@keyframes b1{
+@keyframes bb1{
     0%{
         width: 0%;
     }

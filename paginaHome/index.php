@@ -7,14 +7,14 @@
     <link rel="stylesheet" href="estilo.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
     <script src="https://unpkg.com/scrollreveal"></script>
-    <link rel="shortcut icon" href="imgs/Untitled design (8).png" type="image/x-icon">
+    <link rel="shortcut icon" href="../img/Untitled design (8).png" type="image/x-icon">
 </head>
 <body>
 
     <header>
         <div class="img img-effects">
-            <img src="LOCAL (1).png" alt="" id="vaza">
-            <img src="Untitled design (9).png" alt="" id="entra">
+            <img src="../img/LOCAL (1).png" alt="" id="vaza">
+            <img src="../img/Untitled design (9).png" alt="" id="entra">
         </div>
 
     </header>
@@ -43,7 +43,7 @@
                 </a>
             </li>
             <li class="item-menu">
-                <a href="conta.php">
+                <a href="../conta/conta.php">
                     <span class="icon"><i class="bi bi-person-circle"></i></span>
                     <span class="txt-link">Conta</span>
                 </a>
@@ -55,7 +55,7 @@
                 </a>
             </li>
             <li class="item-menu">
-                <a href="cadastro.php">
+                <a href="../cadastro.php">
                     <span class="icon"><i class="bi bi-box-arrow-left"></i></span>
                     <span class="txt-link">Sair</span>
                 </a>
@@ -149,21 +149,21 @@
             <p>Atualmente existem diversos tipos de placas de vídeo, por isso, muitas pessoas ficam indecisas em qual escolher. Trazemos o <span>TOP 3</span> das mehores placas custo benefício que não vão de deixar na mão. <span>Qual você escolhe?</span></p>
 
             
-            <div class="skills skills-effects">
+            <div class="skills">
                 <h1>Placas de Vídeo</h1>
             
                 <ul>
                     <li>
                         <h3>RTX 3060</h3>
-                        <span class="barras"><span class="b1"></span></span>
+                        <span class="barras"><span class="bb1"></span></span>
                     </li>
                     <li>
                         <h3>RX 6600</h3>
-                        <span class="barras"><span class="b2"></span></span>
+                        <span class="barras"><span class="bb2"></span></span>
                     </li>
                     <li>
                         <h3>ARC 750</h3>
-                        <span class="barras"><span class="b3"></span></span>
+                        <span class="barras"><span class="bb3"></span></span>
                     </li>
                 </ul>
             </div>
@@ -195,9 +195,9 @@
         <p>Site desenvolvido por Daniel Doria</p>
     </footer>
 
-    <script src="carregamento.js"></script>
-    <script src="menu.js"></script>
-    <script src="reviel.js"></script>
+    <script src="../js/carregamento.js"></script>
+    <script src="../js/menu.js"></script>
+    <script src="../js/reviel.js"></script>
     <script src="chart.js"></script>
 
       
