@@ -41,7 +41,7 @@ if(isset($_SESSION['idUser']) && !empty($_SESSION['idUser'])): ?>
                 </a>
             </li>
             <li class="item-menu">
-                <a href="#">
+                <a href="../pesquisa/pesquisa.html">
                     <span class="icon"><i class="bi bi-search"></i></span>
                     <span class="txt-link">Procurar</span>
                 </a>
