@@ -9,12 +9,11 @@ if(isset($_SESSION['idUser']) && !empty($_SESSION['idUser'])): ?>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Local Dados</title>
+    <link rel="stylesheet" href="config.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="estiloconta.css">
-    <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 <body>
-    
+    <h1>Configurações</h1>
 
     <nav class="menu-lateral">
         <div class="btn-expandir">
@@ -22,7 +21,7 @@ if(isset($_SESSION['idUser']) && !empty($_SESSION['idUser'])): ?>
         </div>
 
         <ul>
-            <li class="item-menu ">
+            <li class="item-menu">
                 <a href="../paginaHome/index.php">
                     <span class="icon"><i class="bi bi-house"></i></span>
                     <span class="txt-link">Home</span>
@@ -40,20 +39,20 @@ if(isset($_SESSION['idUser']) && !empty($_SESSION['idUser'])): ?>
                     <span class="txt-link">Procurar</span>
                 </a>
             </li>
-            <li class="item-menu ativo">
-                <a href="">
+            <li class="item-menu">
+                <a href="../conta/conta.php">
                     <span class="icon"><i class="bi bi-person-circle"></i></span>
                     <span class="txt-link">Conta</span>
                 </a>
             </li>
-            <li class="item-menu">
-                <a href="../configurações/config.php">
+            <li class="item-menu ativo">
+                <a href="#">
                     <span class="icon"><i class="bi bi-gear-fill"></i></span>
                     <span class="txt-link">Configurações</span>
                 </a>
             </li>
             <li class="item-menu">
-                <a href="../cadastro.php">
+                <a href="logout.php">
                     <span class="icon"><i class="bi bi-box-arrow-left"></i></span>
                     <span class="txt-link">Sair</span>
                 </a>
@@ -63,67 +62,14 @@ if(isset($_SESSION['idUser']) && !empty($_SESSION['idUser'])): ?>
     </nav>
 
     <main>
-        
-        <nav>
-            <div id="ft">
-                <i class="bi bi-person-circle"></i>
-            </div>
-            <strong class="nome"><?php echo $nomeUser;?></strong>
-        </nav>
+ 
+        <a href="#"><div class="colunas pri"><p>Nome: <?php echo $nomeUser;?></p></div></a>
+        <a href="#"><div class="colunas">Email: </div></a>
+        <a href="#"><div class="colunas">Modo: Claro</div></a>   
+        <a href="#"><div class="colunas">Publicações Arquivadas</div></a>
+        <a href="#"><div class="colunas">Sobre</div></a>
 
-        <div class="linha"></div>
-
-        <div class="box-blocos b1" id="pri">
-            <div class="flex">
-                <div class="bloco">
-                </div>
-                <div class="bloco">
-                </div>
-                <div class="bloco">
-                </div>
-            </div>
-        </div>
-
-        <div class="box-blocos b2">
-            <div class="flex">
-                <div class="bloco">
-                </div>
-                <div class="bloco">
-                </div>
-                <div class="bloco">
-                </div>
-            </div>
-        </div>
-
-        <div class="box-blocos b3">
-            <div class="flex">
-                <div class="bloco">
-                </div>
-                <div class="bloco">
-                </div>
-                <div class="bloco">
-                </div>
-            </div>
-        </div>
-
-        <div class="box-blocos b4">
-            <div class="flex">
-                <div class="bloco ">
-                </div>
-                <div class="bloco ">
-                </div>
-                <div class="bloco ">
-                </div>
-            </div>
-        </div>
-
-
-        
-
-        
     </main>
-    <script src="../js/reviel.js"></script>
-    <script src="../js/menu.js"></script>
 </body>
 </html>
 

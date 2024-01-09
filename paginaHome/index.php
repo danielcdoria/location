@@ -53,7 +53,7 @@ if(isset($_SESSION['idUser']) && !empty($_SESSION['idUser'])): ?>
                 </a>
             </li>
             <li class="item-menu">
-                <a href="#">
+                <a href="../configurações/config.php">
                     <span class="icon"><i class="bi bi-gear-fill"></i></span>
                     <span class="txt-link">Configurações</span>
                 </a>
