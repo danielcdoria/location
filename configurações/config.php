@@ -1,5 +1,7 @@
 <?php
+require '../verifica2.php';
 require '../verifica.php';
+
 
 if(isset($_SESSION['idUser']) && !empty($_SESSION['idUser'])): ?>
 
@@ -63,13 +65,16 @@ if(isset($_SESSION['idUser']) && !empty($_SESSION['idUser'])): ?>
 
     <main>
  
-        <a href="#"><div class="colunas pri"><p>Nome: <?php echo $nomeUser;?></p></div></a>
-        <a href="#"><div class="colunas">Email: </div></a>
-        <a href="#"><div class="colunas">Modo: Claro</div></a>   
-        <a href="#"><div class="colunas">Publicações Arquivadas</div></a>
-        <a href="#"><div class="colunas">Sobre</div></a>
+        <a href="#"><div class="colunas pri a1"><p>Nome: <?php echo $nomeUser;?></p></div></a>
+        <a href="#"><div class="colunas a2">Email: <?php echo $emailUser;?></div></a>
+        <a href="#"><div class="colunas a3">Modo: Claro</div></a>   
+        <a href="#"><div class="colunas a4">Publicações Arquivadas</div></a>
+        <a href="#"><div class="colunas a5">Sobre</div></a>
 
     </main>
+
+    <script src="../js/menu.js"></script>
+    
 </body>
 </html>
 

@@ -25,7 +25,7 @@
 
             $array = array();
 
-            $sql = "SELECT nome FROM usuarios WHERE id = :id";
+            $sql = "SELECT nome, email FROM usuarios WHERE id = :id";
             $sql = $pdo->prepare($sql);
             $sql->bindValue("id", $id);
             $sql->execute();

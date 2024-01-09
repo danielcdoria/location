@@ -43,3 +43,5 @@ revelar.reveal(".btn-prog-effect",
     duration: 1500,
     distance: "70px",
 })
+
+
